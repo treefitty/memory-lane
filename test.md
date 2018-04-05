@@ -1,3 +1,5 @@
+# Testing
+
 ```graphviz
 digraph finite_state_machine {
     rankdir=LR;
@@ -17,7 +19,7 @@ digraph finite_state_machine {
 }
 ```
 
-![Alt text](https://g.gravizo.com/svg?
+![Test](https://g.gravizo.com/svg?
   digraph G {
     aize ="4,4";
     main [shape=box];
@@ -35,3 +37,7 @@ digraph finite_state_machine {
   }
 )
 
+![Image of Yaktocat](
+    https://octodex.github.com/images/yaktocat.png)
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
