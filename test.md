@@ -1,33 +1,18 @@
 # Testing
 
-```graphviz
-digraph finite_state_machine {
-    rankdir=LR;
-    size="8,5"
+![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2FTLmaK0%2Fgravizo%2Fmaster%2FREADME.md)
 
-    node [shape = doublecircle]; S;
-    node [shape = point ]; qi
-
-    node [shape = circle];
-    qi -> S;
-    S  -> q1 [ label = "a" ];
-    S  -> S  [ label = "a" ];
-    q1 -> S  [ label = "a" ];
-    q1 -> q2 [ label = "ddb" ];
-    q2 -> q1 [ label = "b" ];
-    q2 -> q2 [ label = "b" ];
-}
-```
-
-![Test](https://g.gravizo.com/svg?
+<details> 
+<summary></summary>
+custom_mark10
   digraph G {
-    aize ="4,4";
+    size ="4,4";
     main [shape=box];
     main -> parse [weight=8];
     parse -> execute;
     main -> init [style=dotted];
     main -> cleanup;
-    execute -> { make_string; printf}
+    execute -> { make_string; printf};
     init -> make_string;
     edge [color=red];
     main -> printf [style=bold,label="100 times"];
@@ -35,9 +20,5 @@ digraph finite_state_machine {
     node [shape=box,style=filled,color=".7 .3 1.0"];
     execute -> compare;
   }
-)
-
-![Image of Yaktocat](
-    https://octodex.github.com/images/yaktocat.png)
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+custom_mark10
+</details>
